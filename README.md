@@ -13,6 +13,15 @@ Go here to [Download]('https://www.python.org/downloads/')
 2. Click latest version to download Python
 3. Figure it out
 
+Next we will install Django and Pip. Pip is similar to npm and gems on Node and Ruby.
+
+In the command line run:
+
+1. brew install python
+2. pip --version (check to see if pip was installed)
+
+![Pip](http://pa1.narvii.com/5955/bf6b5f02a02a0ae0d22e768c8de183d085c04b95_hq.gif)
+
 ## Hello World from command line
 
 In the terminal you can run a "Hello World" command by declaring it as a vaiable. In the example below, we declare the variable ```message``` and set it equal to the desired text ```"Hello World"```
