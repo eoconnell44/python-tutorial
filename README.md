@@ -152,3 +152,29 @@ The main differences between lists and tuples are: Lists are enclosed in bracket
 >>> print exampletuple[2:]
 ('gustave', 'other fish')
 ```
+
+### Tuples
+
+A dictionary is a data type similar to arrays, but works with keys and values instead of indexes. Each value stored in a dictionary can be accessed using a key, which is any type of object (a string, a number, a list, etc.) instead of using its index to address it.
+
+Dictionaries are enclosed by curly braces ({ }) and values can be assigned and accessed using square braces ([])
+
+```
+>>> dict = {}
+>>> dict['one'] = 'This is a cat'
+>>> dict[2] = 'probably a dog'
+>>> print dict
+{2: 'probably a dog', 'one': 'This is a cat'}
+>>> print dict['one']
+This is a cat
+>>> print dict[2]
+probably a dog
+
+>>> otherdict = {'name': 'gustave', 'type': 'fish', 'age': 100 }
+>>> print otherdict
+{'age': 100, 'type': 'fish', 'name': 'gustave'}
+>>> print otherdict.keys()
+['age', 'type', 'name']
+>>> print otherdict.values()
+[100, 'fish', 'gustave']
+```
