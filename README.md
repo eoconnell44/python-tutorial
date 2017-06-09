@@ -19,6 +19,7 @@ In the command line run:
 
 1. brew install python
 2. pip --version (check to see if pip was installed)
+3. To run python in terminal enter the command ```python```
 
 ![Pip](http://pa1.narvii.com/5955/bf6b5f02a02a0ae0d22e768c8de183d085c04b95_hq.gif)
 
@@ -39,6 +40,25 @@ To exit out of python: ```quit()```
 Hello World
 >>> 
 >>> quit()
+```
+
+## Hello World from Text Editor
+
+Open from text editor and enter in the code below, which will create a helloworld.html file which can be viewed in the browser. 
+
+```
+f = open('helloworld.html')
+
+message = """<html>
+<head></head>
+<body><p>Hello World!</p>
+<h1>Hello World</h1> 
+<h2>Hello</h2>
+</body>
+</html>"""
+
+f.write(message)
+f.close()
 ```
 
 ## Indentation
@@ -74,6 +94,12 @@ Javascript
 ... console.log('x is 1.')
 x is 1.
 ```
+
+## Commenting
+
+Just like in Ruby, to make comments in the code, start any line with ```#```
+
+
 ## Variables and Types
 
 Python is completely **Object-Orientated**
@@ -153,7 +179,7 @@ The main differences between lists and tuples are: Lists are enclosed in bracket
 ('gustave', 'other fish')
 ```
 
-### Tuples
+### Dictionary
 
 A dictionary is a data type similar to arrays, but works with keys and values instead of indexes. Each value stored in a dictionary can be accessed using a key, which is any type of object (a string, a number, a list, etc.) instead of using its index to address it.
 
@@ -177,4 +203,55 @@ probably a dog
 ['age', 'type', 'name']
 >>> print otherdict.values()
 [100, 'fish', 'gustave']
+```
+
+### Concatenation
+
+```
+>>> word_1='how'
+>>> word_2='are'
+>>> word_3='you'
+>>> phrase=(word_1+' '+word_2+' '+word_3)
+>>> print(phrase)
+how are you
+>>> 
+```
+
+### Formatting 
+
+```
+>>> print('Hello, my name is {}, 
+>>> and i have a {}.'.format('kyle','question'))
+Hello, my name is kyle, and i have a question.
+```
+
+### For Loops
+
+Python loops are not so different from other languages and may look much like a for..of loop in javascript.
+
+Syntax:
+
+```
+for val in sequence:
+	Body of for
+```
+
+```val``` is the variable which will take a value inside of the sequence. The ```sequence``` can be a **list**, **tuple**, **string**, or any other iterable object.
+
+The ```Body``` of for loop is separated from the rest of the code using indentation.
+
+For loop example:
+
+```
+#List of numbers
+>>> numbers = [11,15,1,2,5,7,4]
+# variable to store the sum
+>>> sum = 0
+# iterate over the numbers list
+>>> for val in numbers:
+...     sum = sum+val
+... 
+# Output: The sum is 45
+>>> print("The sum is", sum)
+('The sum is', 45)
 ```
