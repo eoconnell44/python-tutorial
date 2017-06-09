@@ -5,6 +5,9 @@
 1.	Draw a couple of circles
 2. DTROTFO
 
+
+![Owl](https://i.imgur.com/RadSf.jpg)
+
 ##Installation
 
 Go here to [Download]('https://www.python.org/downloads/')
