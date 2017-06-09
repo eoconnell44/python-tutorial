@@ -112,7 +112,7 @@ Just like in Ruby, to make comments in the code, start any line with ```#```
 
 ## Variables and Types
 
-Python is completely **Object-Orientated**
+Python is completely **Object-Oriented**
 
 Every variable in Python is an **Object**
 
